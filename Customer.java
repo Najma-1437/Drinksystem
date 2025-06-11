@@ -1,3 +1,8 @@
+package com.drinkstore.drinksystem.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 public class Customer {
     private String customerId;
     private String name;
